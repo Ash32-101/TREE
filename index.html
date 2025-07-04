@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Happy Birthday TR33</title>
+  <style>
+    body {
+      margin: 0;
+      background: linear-gradient(135deg, #0a0a0a, #1a001a);
+      color: #e0e0ff;
+      font-family: 'Courier New', monospace;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      overflow-x: hidden;
+      animation: fadeIn 3s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: scale(0.9); }
+      to { opacity: 1; transform: scale(1); }
+    }
+
+    h1 {
+      font-size: 3rem;
+      color: #b083ff;
+      text-shadow: 0 0 10px #a855f7;
+      margin-bottom: 1rem;
+    }
+
+    .card {
+      background: rgba(34, 0, 51, 0.8);
+      border: 1px solid #551177;
+      border-radius: 1rem;
+      padding: 2rem;
+      max-width: 600px;
+      margin: 1rem;
+      box-shadow: 0 0 20px rgba(128, 0, 128, 0.3);
+    }
+
+    .spotify {
+      margin: 2rem 0;
+      width: 100%;
+      max-width: 600px;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 0 15px rgba(128, 0, 128, 0.2);
+    }
+
+    button {
+      background: #7e22ce;
+      color: white;
+      border: none;
+      padding: 0.8rem 1.5rem;
+      border-radius: 25px;
+      font-size: 1rem;
+      cursor: pointer;
+      margin-top: 1.5rem;
+      box-shadow: 0 0 10px #9333ea;
+      transition: background 0.3s;
+    }
+
+    button:hover {
+      background: #a855f7;
+    }
+
+    .message {
+      margin-top: 1rem;
+      font-size: 1.2rem;
+      color: #d8b4fe;
+      text-shadow: 0 0 5px #9333ea;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Happy Birthday, TR33 🎂</h1>
+
+  <div class="card">
+    <p>
+      On your special day, we just want to say how deeply thankful we are to have you in our lives
+From me and sidd your advice, your kindness, and just your presence have meant more than words can say:)
+You’ve lifted us, guided us, and reminded us of our worth more times than you probably know
+We hope one day we can repay even a fraction of what youve given us
+We love you so much, and we hope this birthday is filled with peace, joy, and all the warmth you bring to others.
+Have a beautiful birthday. You deserve it all.
+ With love,
+0Day and Sidd    </p>
+    <p style="margin-top: 1rem; font-style: italic;">
+      — from your favorite punk ass ethical hackers(and chemistry GOAT) ✨
+    </p>
+  </div>
+
+  <div class="spotify">
+    <iframe style="border:0" src="https://open.spotify.com/embed/playlist/5XNkv5ZEdsq3V3GVEhv08G?utm_source=generator" width="100%" height="352" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+  </div>
+
+  <button onclick="document.getElementById('pat-message').style.display = 'block'">
+    Give Pat Pat
+  </button>
+  <div id="pat-message" class="message" style="display: none;">
+    Pat Pat from your 23rd favorite child 💜
+  </div>
+
+</body>
+</html>
